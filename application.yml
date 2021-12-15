@@ -1,0 +1,13 @@
+server:
+  port: 8088
+ 
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/inventrymgmt
+    username: root
+    password: system
+    
+  jpa:
+    generate-ddl: true
+    show-sql: true
